@@ -1,0 +1,43 @@
+
+/* login */
+
+.almefy-login-page-container {
+    display: flex;
+    justify-content: center;
+    /* width: 100%; */
+    /* margin-top: 5rem; */
+
+    margin-top: 20px;
+    margin-left: 0;
+    padding: 26px 24px 34px;
+    font-weight: 400;
+    overflow: hidden;
+    background: #fff;
+    border: 1px solid #c3c4c7;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .04);
+}
+
+.almefy-login-page-container .almefy-login-card {
+    border: none;
+}
+
+.almefy-login-card ul, .almefy-login-card ul li {
+    /* white-space: nowrap; */
+    list-style: inside;
+}
+
+/* password reset */
+#lostpasswordform .button {
+    width: 100%;
+}
+
+.notice-error {
+    border-left: 4px solid #d63638;
+    border-left-color: #d63638;
+    padding: 12px;
+    margin-left: 0;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1);
+    word-wrap: break-word;
+}

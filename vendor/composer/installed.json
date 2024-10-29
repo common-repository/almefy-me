@@ -1,0 +1,58 @@
+{
+    "packages": [
+        {
+            "name": "almefy/client",
+            "version": "v0.9.7",
+            "version_normalized": "0.9.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/almefy/almefy-php-client.git",
+                "reference": "1ea9baec225ad68471e140b66bb323a0ff44b898"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/almefy/almefy-php-client/zipball/1ea9baec225ad68471e140b66bb323a0ff44b898",
+                "reference": "1ea9baec225ad68471e140b66bb323a0ff44b898",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "php": ">=7.4"
+            },
+            "time": "2023-04-18T06:46:02+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Almefy\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Piecko",
+                    "email": "michael.piecko@almefy.com"
+                }
+            ],
+            "description": "PHP Wrapper for the Almefy API",
+            "homepage": "https://almefy.com",
+            "keywords": [
+                "Authentication",
+                "almefy",
+                "login"
+            ],
+            "support": {
+                "issues": "https://github.com/almefy/almefy-php-client/issues",
+                "source": "https://github.com/almefy/almefy-php-client/tree/v0.9.7"
+            },
+            "install-path": "../almefy/client"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

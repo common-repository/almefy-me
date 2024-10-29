@@ -1,0 +1,183 @@
+ /* almefy-login shortcode */
+
+/* edit the sdk styling */
+.almefy-auth-v1.boxed-style {
+    background: white;
+    margin: auto;
+    padding-top: 0;
+}
+
+.almefy-auth-v1 a.almefy-link,
+.almefy-auth-v1 .almefy-claim {
+    display: none;
+}
+
+.almefy-deep-link {
+    min-width: 160px;
+}
+
+/* custom styles */
+
+
+.almefy-login-card {
+
+    /* reset all css done outside of the plugin */
+    all: initial;
+
+    background: white;
+
+    position: relative;
+    overflow: hidden;
+
+    border: 1px solid #c3c4c7;
+    padding: 1rem;
+
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    
+    gap: 0;
+    
+    min-width: 550px;
+    max-width: min-content;
+
+    font-family: Arial !important;
+}
+
+.almefy-login-card ul, .almefy-login-card ul li {
+    /* white-space: nowrap; */
+}
+
+
+/* column layout */
+.almefy-login-col {
+    display: grid;
+    grid-template-columns: 1fr;
+
+    text-align: center;
+    max-width: 270px !important;
+    min-width: 270px;
+}
+
+.almefy-login-explainer {
+    padding-top: 1.5rem;
+    padding-left: 1rem;
+}
+
+.almefy-login-col .almefy-login-explainer {
+    padding-top: .8rem;
+    padding-left: 0rem;
+}
+
+.almefy-login-logo {
+    text-align: center;
+}
+
+.almefy-login-logo img {
+    width: 120px;
+}
+
+@media (max-width: 600px) {
+    /* apply column layout on small screens */
+    .almefy-login-card {
+        display: grid;
+        grid-template-columns: 1fr;
+
+        text-align: center;
+        max-width: 270px;
+        min-width: 270px;
+    }
+
+    .almefy-login-explainer {
+        padding-top: .8rem;
+        padding-left: 0rem;
+    }
+}
+
+/* TODO: settings */
+/* connect overlay */
+.almefy-login-overlay {
+
+    padding: 1rem;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    background: white;
+
+    transform: translateY(100%);
+    transition: all .2s ease-out;
+}
+
+.almefy-login-overlay.active {
+    transform: translateY(0);
+}
+
+div.almefy-login-card a {
+    text-decoration: underline !important;
+}
+
+.almefy-login-close {
+    text-decoration: none !important;
+    color: black !important;
+    font-size: 1.5rem !important;
+}
+
+.almefy-login-card input {
+    font-size: 1rem !important;
+    max-width: 300px;
+    border-radius: 2px !important;
+    border: 1px solid #8c8f94;
+}
+
+div.almefy-login-card input, .almefy-login-card button {
+    margin-bottom: .5rem;
+    padding: .15rem .5rem !important;
+    font-family: Arial !important;
+    font-size: 1rem !important;
+}
+
+.almefy-login-card.almefy-login-col button {
+    margin-top: .8rem;
+}
+
+.almefy-login-card button {
+    border: solid 1px var(--almefy-blue-dark) !important;
+    font-weight: 400 !important;
+    background: white !important;
+}
+
+.almefy-login-card .almefy-login-overlay a, .almefy-login-card .almefy-login-overlay button, .almefy-login-explainer a {
+    color: var(--almefy-blue-dark) !important;
+    border-color: var(--almefy-blue-dark) !important;
+    border-radius: 2px !important;
+    font-family: Arial !important;
+}
+
+.almefy-login-card button:hover,
+.almefy-login-card button:active,
+.almefy-login-card button:focus {
+    color: white !important;
+    border-color: var(--almefy-blue-dark) !important;
+    background: var(--almefy-blue-dark) !important;
+}
+
+.almefy-login-card .almefy-register-button {
+    display: block;
+}
+.almefy-login-card.almefy-login-col  .almefy-register-button {
+    margin: auto;
+}
+
+.almefy-login-banner {
+    padding: .5rem 1.2rem;
+    /* width: 100%; */
+    background: var(--almefy-green);
+    color: white;
+}
+
+.almefy-login-banner-error {
+    background: var(--almefy-red);
+}

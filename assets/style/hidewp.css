@@ -1,0 +1,10 @@
+/* hide wordpress backend interface for empty pages */
+#wpbody-content>div:not(.almefy) {
+    display: none !important;
+}
+
+#wpadminbar,
+#adminmenumain,
+#wpfooter {
+    display: none;
+}

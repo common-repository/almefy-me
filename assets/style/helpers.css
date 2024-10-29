@@ -1,0 +1,52 @@
+
+* {
+    --almefy-black: #1d2327;
+    --almefy-red: #bf5777;
+    --almefy-blue-light: #3e84ad;
+    --almefy-blue: #1d4264;
+    --almefy-blue-dark: #2D4D74;
+    --almefy-blue-darker: #1D4264;
+    --almefy-green: #31AA52;
+    --almefy-yellow: #FFD858;
+    --almefy-yellow-light: #FBE6AF;
+    --almefy-gray: #E4E4E4;
+    --almefy-gray-dark: #707070;
+
+    --almefy-new-blue: #3e84ad;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-flow: column;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.flex-grow {
+    flex-grow: 1;
+}

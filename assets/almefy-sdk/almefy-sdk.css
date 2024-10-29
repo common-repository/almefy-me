@@ -1,0 +1,164 @@
+.almefy-auth-v1 {
+    font-size: .85rem;
+    font-family: sans-serif;
+    font-weight: normal;
+    line-height: 120%;
+    max-width: 180px
+}
+
+.almefy-auth-v1 .almefy-auth-container {
+    position: relative
+}
+
+.almefy-auth-v1 .almefy-auth-container .almefy-placeholder {
+    position: relative;
+    width: 480px;
+    max-width: 100%;
+    vertical-align: middle;
+    border-style: none
+}
+
+.almefy-auth-v1 .almefy-auth-container .almefy-deep-link {
+    display: inline-block;
+    cursor: initial;
+    background-size: contain
+}
+
+.almefy-auth-v1 .almefy-auth-container .almefy-deep-link.active {
+    cursor: pointer
+}
+
+.almefy-auth-v1 .almefy-auth-container .almefy-loader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    margin-left: -1.5rem;
+    margin-top: -1.5rem;
+    width: 3rem;
+    height: 3rem;
+    vertical-align: text-bottom;
+    border: .25rem solid #aaa;
+    border-right-color: rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    animation: almefy-auth-v1 .75s linear infinite;
+    box-sizing: border-box
+}
+
+.almefy-auth-v1 .almefy-auth-container .almefy-dialog {
+    position: absolute;
+    border-radius: 5px;
+    padding: 8px 8px 8px;
+    background-color: #9a9a9a;
+    color: #fff;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block;
+    box-sizing: border-box
+}
+
+.almefy-auth-v1 .almefy-auth-container .almefy-dialog p.almefy-message {
+    text-align: center;
+    margin-bottom: 8px;
+    padding-bottom: 0
+}
+
+.almefy-auth-v1 .almefy-auth-container .almefy-dialog a.almefy-button {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 3px 0;
+    background-color: #777;
+    border-radius: 3px;
+    color: #fff
+}
+
+.almefy-auth-v1 .almefy-auth-container .almefy-dialog a.almefy-button:hover {
+    background-color: #666;
+    color: #fff
+}
+
+.almefy-auth-v1 .almefy-auth-container .almefy-dialog a.almefy-button svg {
+    vertical-align: -1px
+}
+
+.almefy-auth-v1 .almefy-auth-container .almefy-dialog.type-log {
+    background-color: #336fa7
+}
+
+.almefy-auth-v1 .almefy-auth-container .almefy-dialog.type-log a.almefy-button {
+    background-color: #224e77;
+    color: #fff
+}
+
+.almefy-auth-v1 .almefy-auth-container .almefy-dialog.type-log a.almefy-button:hover {
+    background-color: #1a3c5b;
+    color: #fff
+}
+
+.almefy-auth-v1 .almefy-auth-container .almefy-dialog.type-error {
+    background-color: #be0000
+}
+
+.almefy-auth-v1 .almefy-auth-container .almefy-dialog.type-error a.almefy-button {
+    background-color: #9a0000;
+    color: #fff
+}
+
+.almefy-auth-v1 .almefy-auth-container .almefy-dialog.type-error a.almefy-button:hover {
+    background-color: #760000;
+    color: #fff
+}
+
+.almefy-auth-v1 .almefy-link {
+    margin-top: 8px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 3px 0;
+    background-color: #888;
+    border-radius: 3px;
+    color: #fff
+}
+
+.almefy-auth-v1 .almefy-link:hover {
+    background-color: #666;
+    color: #fff
+}
+
+.almefy-auth-v1 .almefy-link svg {
+    vertical-align: -2px
+}
+
+.almefy-auth-v1 .almefy-claim {
+    padding: 5px 0 5px;
+    text-align: center
+}
+
+.almefy-auth-v1 .almefy-claim img {
+    display: inline-block;
+    height: 17px
+}
+
+.almefy-auth-v1.boxed-style {
+    padding: 10px 10px 0;
+    background-color: #dbdbdb;
+    border-radius: 5px
+}
+
+.almefy-auth-v1 .almefy-instance-id {
+    font-family: monospace;
+    font-size: 10px;
+    color: #666;
+    padding: 5px 0;
+    text-align: center
+}
+
+@keyframes almefy-auth-v1 {
+    to {
+        transform: rotate(360deg)
+    }
+}

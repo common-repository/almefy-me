@@ -1,0 +1,30 @@
+{
+  "name": "almefy/sdk",
+  "type": "library",
+  "description": "PHP Wrapper for the Almefy API",
+  "keywords": ["authentication", "login", "almefy"],
+  "homepage": "https://almefy.me",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Michael Piecko",
+      "email": "michael.piecko@almefy.com"
+    }
+  ],
+  "config": {
+    "platform": {
+      "php": "5.6"
+    }
+  },
+  "require": {
+    "php": ">=5.6",
+    "ext-json": "*",
+    "ext-curl": "*",
+    "ext-mbstring": "*"
+  },
+  "autoload": {
+    "psr-4" : {
+      "Almefy\\" : "src/"
+    }
+  }
+}

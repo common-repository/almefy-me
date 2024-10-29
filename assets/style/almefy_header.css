@@ -1,0 +1,28 @@
+.almefy-me-header {
+    margin-bottom: 2rem;
+}
+
+.almefy-me-header>p {
+    color: var(--almefy-blue);
+    font-size: 16px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.almefy-me-button-yellow {
+    display: inline-block;
+    padding: 8px 24px;
+
+    font-size: 14px;
+    font-weight: bolder;
+
+    text-decoration: none;
+
+    border: none;
+    background-color: var(--almefy-yellow);
+    color: var(--almefy-blue-dark);
+    box-shadow: 0px 2px 6px #00000029;
+}
+
+.almefy-me-header-logo {
+    height: 46px;
+}

@@ -1,0 +1,78 @@
+/* almefy-connect Shortcode */
+
+.almefy-me-connect {
+    display: inline-block;
+}
+
+.almefy-me-connect h3 {
+    margin-top: 0;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1.8rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.almefy-me-connect .qr {
+    display: block;
+    margin: 1rem;
+}
+
+.almefy-me-connect .blurred {
+    filter: blur(8px);
+    /* TODO: transition */
+}
+
+
+.almefy-me-scan-me {
+    margin-bottom: 0.9rem;
+}
+
+.almefy-me-connect .connect-desktop {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.almefy-me-connect .connect-mobile {
+    display: none;
+    flex-flow: column;
+    align-items: center;
+}
+
+.almefy-me-connect-error {
+    padding: .5rem 1.2rem;
+    width: 80%;
+    background: var(--almefy-green);
+    color: white;
+    background: var(--almefy-red);
+}
+
+@media (max-width:620px) {
+    .almefy-me-connect {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 800px) and (hover: none) and (pointer: coarse) {
+    .almefy-me-connect .connect-desktop {
+        display: none;
+    }
+
+    .almefy-me-connect .connect-mobile {
+        display: flex;
+
+    }
+}
+
+#send-mail {
+    display: block;
+    max-width: 40ch;
+    min-width: 40ch;
+}
+
+.almefy-error-text {
+    color: var(--almefy-red) !important;
+}

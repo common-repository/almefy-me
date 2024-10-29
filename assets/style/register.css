@@ -1,0 +1,13 @@
+.almefy-me-register {
+    display: flex;
+    flex-flow: column;
+    gap: .75rem;
+}
+
+.almefy-me-register label {
+    display: block;
+}
+
+.almefy-me-register label input {
+    margin-top: .25rem !important;
+}

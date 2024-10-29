@@ -1,0 +1,692 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Official Almefy\n"
+"POT-Creation-Date: 2023-05-22 12:04+0200\n"
+"PO-Revision-Date: 2023-05-22 12:04+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: plugin.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+
+#: src/Components/almefy_header.php:15
+msgid "https://almefy.com/contact/"
+msgstr "https://almefy.com/contact/"
+
+#: src/Components/almefy_header.php:15
+msgid "Help us be better"
+msgstr "Helfen Sie uns, besser zu werden"
+
+#: src/Components/almefy_header.php:19 src/Pages/Profile/AlmefyProfilePage.php:23
+msgid ""
+"Almefy is a Two-Factor Authentication solution in one step - highly secure and "
+"without passwords.<br>Connect your device below to get started and login by "
+"scanning the QR code on the Login page going forward. No password needed<br><a "
+"target=\"_blank\" rel=\"noopener\" href=\"https://almefy.com/\">Learn more</a>"
+msgstr ""
+"Almefy ist eine Zwei-Faktor-Authentifizierungslösung in einem Schritt - "
+"hochsicher und ohne Passwörter.<br>Verbinden Sie Ihr Gerät unten, um "
+"loszulegen und sich anzumelden, indem Sie den QR-Code auf der Anmeldeseite "
+"scannen. Kein Passwort erforderlich<br><a target=\"_blank\" rel=\"noopener\" "
+"href=\"https://almefy.com/\">Weitere Informationen</a>"
+
+#: src/Mail/AlmefyMailer.php:67
+#, php-format
+msgid "Connect your device to %s."
+msgstr "Verbinden Sie Ihr Gerät mit %s."
+
+#: src/Notices/AlmefyNotices.php:15
+msgid "Almefy is in sandbox mode! Do not use in production."
+msgstr "Almefy ist im Sandbox-Modus! Nicht in Production verwenden."
+
+#: src/Notices/AlmefyNotices.php:32
+msgid "Notice: Please finish your Almefy setup"
+msgstr "Hinweis: Bitte beenden Sie Ihr Almefy Setup"
+
+#: src/Notices/AlmefyNotices.php:34
+#, php-format
+msgid ""
+"You are almost ready to use Almefy on your website.<br>Please follow the "
+"instructions <a href='%s'>here</a> to enable the Almefy Plugin."
+msgstr ""
+"Sie sind fast bereit, Almefy auf Ihrer Website zu verwenden.<br>Bitte folgen "
+"Sie den Anweisungen <a href='%s'>hier</a> , um das Almefy Plugin zu aktivieren."
+
+#: src/Pages/Profile/AlmefyDeviceManagerPage.php:29
+#: src/Pages/Profile/AlmefyDeviceManagerPage.php:30
+msgid "My Almefy Devices"
+msgstr "Meine Almefy Geräte"
+
+#: src/Pages/Profile/AlmefyDeviceManagerPage.php:55
+msgid ""
+"<b>Important: </b>By activating Almefy on your account you enable secure 2-"
+"Factor-Authentication in one step. <br>To do so, the login through username "
+"and password will be disabled. <br>Just use the <a href='https://almefy.com/"
+"products/almefyapp' target='_blank'>Almefy App</a> to login. Secure, Simple, "
+"Fast."
+msgstr ""
+"<b>Wichtig: </b> Mit der Aktivierung von Almefy in Ihrem Konto er­mög­li­chen Sie "
+"die sichere 2-Faktor-Authentifizierung in einem Schritt. <br>Im Zuge dessen "
+"wird die Anmeldung über Benutzername und Passwort deaktiviert. <br>Melden Sie "
+"sich ab dann einfach mit der <a href='https://almefy.com/products/almefyapp' "
+"target='_blank'>Almefy App</a> an. Sicher, einfach, schnell."
+
+#: src/Pages/Profile/AlmefyProfilePage.php:25
+msgid "Manage Almefy Devices"
+msgstr "Almefy Geräte verwalten"
+
+#: src/Pages/Settings/AlmefySettingsPage.php:55
+msgid "Settings Saved"
+msgstr "Einstellungen gespeichert"
+
+#: src/Pages/Settings/AlmefySettingsPage.php:66
+msgid ""
+"Almefy has been successfully activated.<br>Please scan the Code with the "
+"Almefy app to connect the device."
+msgstr ""
+"Almefy wurde erfolgreich aktiviert.<br>Bitte scannen Sie den Code mit der "
+"Almefy App, um das Gerät zu verbinden."
+
+#: src/Pages/Settings/AlmefySettingsPage.php:69
+msgid ""
+"By enabling Almefy for secure 2FA login in one step, we will disable the login "
+"through username and password. <br>Going forward you can only login by using "
+"the <a href='https://almefy.com/products/almefyapp' target='_blank'>Almefy "
+"App</a>."
+msgstr ""
+"Indem Sie Almefy für die sichere 2FA-Anmeldung in einem Schritt aktivieren, "
+"deaktivieren wir die Anmeldung über Benutzername und Passwort. <br>In Zukunft "
+"können Sie sich nur noch mit der <a href='https://almefy.com/products/"
+"almefyapp' target='_blank'>Almefy App</a> einloggen."
+
+#: src/Pages/Settings/AlmefySettingsPage.php:94
+msgid "Key & Secret"
+msgstr "Key&Secret"
+
+#: src/Pages/Settings/AlmefySettingsPage.php:95
+#: src/Pages/Settings/AlmefySettingsPage.php:176 src/Util/hooks.php:17
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: src/Pages/Settings/AlmefySettingsPage.php:96
+msgid "How to"
+msgstr "How to"
+
+#: src/Pages/Settings/AlmefySettingsPage.php:103
+#: src/Pages/Settings/AlmefySettingsPage.php:113
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+#: src/Pages/Settings/AlmefySettingsPage.php:173
+msgid "Key&Secret"
+msgstr "Key&Secret"
+
+#: src/Pages/Settings/AlmefySettingsPage.php:179
+msgid "How To"
+msgstr "So geht's"
+
+#: src/Pages/Settings/AlmefySettingsPage.php:184
+msgid "Key"
+msgstr "Key"
+
+#: src/Pages/Settings/AlmefySettingsPage.php:185
+msgid "Secret"
+msgstr "Secret"
+
+#: src/Pages/Settings/AlmefySettingsPage.php:188
+msgid "Enable Almefy"
+msgstr "Almefy aktivieren"
+
+#: src/Pages/Settings/AlmefySettingsPage.php:188
+msgid "Enable/Disable Almefy for login to your website."
+msgstr "Aktivieren / deaktivieren Sie Almefy für den Login auf Ihrer Website."
+
+#: src/Pages/Settings/AlmefySettingsPage.php:190
+msgid "Activation on Register"
+msgstr "Aktivierung bei Registrierung"
+
+#: src/Pages/Settings/AlmefySettingsPage.php:190
+msgid "Send the Almefy Connect email to newly registered users."
+msgstr "Senden Sie die Almefy Connect E-Mail an neu registrierte Benutzer."
+
+#: src/Pages/Settings/AlmefySettingsPage.php:191
+msgid "Disable 'Welcome' mail"
+msgstr "Deaktivieren Sie die \"Willkommen\" E-Mail"
+
+#: src/Pages/Settings/AlmefySettingsPage.php:191
+msgid "Disable the default Wordpress 'Welcome' mail sent by wordpress."
+msgstr ""
+"Deaktivieren Sie die standardmäßige „Willkommen“ E-mail, die von WordPress "
+"gesendet wird."
+
+#: src/Pages/Settings/AlmefySettingsPage.php:192
+msgid "Enable 'Connect Almefy' during login"
+msgstr "Aktivieren Sie “Almefy verbinden\" während des Logins"
+
+#: src/Pages/Settings/AlmefySettingsPage.php:192
+msgid "Allow users to activate 'Login with Almefy' in the [almefy-login] widget."
+msgstr ""
+"Erlauben Sie Benutzern, \"Login mit Almefy\" im [almefy-login] Widget zu "
+"aktivieren."
+
+#: src/Pages/Settings/AlmefySettingsPage.php:194
+msgid "Redirect after login"
+msgstr "Umleiten nach dem Login"
+
+#: src/Pages/Settings/AlmefySettingsPage.php:194
+msgid ""
+"Decide to which page users should be redirected to after successfully logging "
+"in. <br>'/wp-admin' is the default."
+msgstr ""
+"Entscheiden Sie, auf welche Seite Benutzer nach erfolgreicher Anmeldung "
+"weitergeleitet werden sollen. <br>'/wp-admin' ist die Standardeinstellung."
+
+#: src/Pages/Settings/AlmefySettingsPage.php:196
+msgid "Session timeout"
+msgstr "Session-Timeout"
+
+#: src/Pages/Settings/AlmefySettingsPage.php:196
+msgid "How many hours until users have to re-login?"
+msgstr "Wie viele Stunden, bis sich Benutzer erneut anmelden müssen?"
+
+#: src/Pages/Settings/tab_01_keysecret.php:3
+msgid ""
+"With your key & secret you enable the secure communication with the server "
+"during the login process."
+msgstr ""
+"Key & Secret ermöglichen die sichere Kommunikation mit dem Server während des "
+"Login-Prozesses."
+
+#: src/Pages/Settings/tab_01_keysecret.php:7
+msgid "Request key & secret"
+msgstr "Key & Secret anfordern"
+
+#: src/Pages/Settings/tab_01_keysecret.php:31
+#: src/Pages/Settings/tab_01_keysecret.php:62
+#: src/Pages/Settings/tab_01_keysecret.php:69
+msgid "Activate"
+msgstr "Aktivieren"
+
+#: src/Pages/Settings/tab_01_keysecret.php:50
+msgid "Active"
+msgstr "Aktiv"
+
+#: src/Pages/Settings/tab_01_keysecret.php:54
+msgid "Invalid. Try again"
+msgstr "Ungültig. Versuchen Sie es erneut"
+
+#: src/Pages/Settings/tab_01_keysecret.php:122
+msgid "Active!"
+msgstr "Aktiv!"
+
+#: src/Pages/Settings/tab_01_keysecret.php:130
+msgid "Invalid key or secret."
+msgstr "Ungültiger Key oder Secret."
+
+#: src/Pages/Settings/tab_02_settings.php:16
+msgid "Reinstall"
+msgstr "Neu installieren"
+
+#: src/Pages/Settings/tab_02_settings.php:19
+msgid ""
+"If you want to restore the default settings just restart the setup and you "
+"will be guided through the steps."
+msgstr ""
+"Wenn Sie die Standardeinstellungen wiederherstellen möchten, starten Sie "
+"einfach das Setup neu und Sie werden durch die Schritte geführt."
+
+#: src/Pages/Settings/tab_03_howtouse.php:1
+msgid "Login"
+msgstr "Anmelden"
+
+#: src/Pages/Settings/tab_03_howtouse.php:3
+msgid ""
+"To add the login code to your website add the <b>[almefy-login]</b> shortcode "
+"to your page."
+msgstr ""
+"Um den Anmeldecode zu Ihrer Website hinzuzufügen, fügen Sie den <b>Shortcode "
+"[almefy-login]</b> zu Ihrer Seite hinzu."
+
+#: src/Pages/Settings/tab_03_howtouse.php:4
+msgid ""
+"Alternatively you may add it via <b>do_shortcode('[almefy-login]');</b> to "
+"your theme."
+msgstr ""
+"Alternativ können Sie es über <b>do_shortcode('[almefy-login]');</b> zu Ihrem "
+"Theme hinzufügen."
+
+#: src/Pages/Settings/tab_03_howtouse.php:6
+msgid ""
+"If you would like to redirect users to the backend when logging in via the "
+"Wordpress login at `/wp-login.php`"
+msgstr ""
+"Wenn Sie Benutzer beim Einloggen über den Wordpress-Login unter '/wp-login."
+"php' auf das Backend umleiten möchten"
+
+# Ich bin nicht sicher, ob ich das verstehe. Wo wird das denn stehen?
+#: src/Pages/Settings/tab_03_howtouse.php:7
+msgid "but to a profile page when logging in via the the frontend you have to:"
+msgstr ""
+"aber zu einer Profilseite, wenn Sie sich über das Frontend anmelden, müssen "
+"Sie:"
+
+#: src/Pages/Settings/tab_03_howtouse.php:8
+msgid "- Leave the `Redirect to after login` empty in the plugin settings"
+msgstr ""
+"- Lassen Sie die 'Weiterleitung nach dem Login' in den Plugin-Einstellungen "
+"leer"
+
+#: src/Pages/Settings/tab_03_howtouse.php:9
+msgid "- Set the 'redirect' variable on the shortcode"
+msgstr "- Setzen Sie die Variable 'redirect' im Shortcode"
+
+#: src/Pages/Settings/tab_03_howtouse.php:11
+msgid "Example: <b>[almefy-login]</b>"
+msgstr "Beispiel: <b>[almefy-login]</b>"
+
+#: src/Pages/Settings/tab_03_howtouse.php:12
+msgid "Example: <b>[almefy-login redirect=\"/replace-with-custom-page\"]</b>"
+msgstr "Beispiel: <b>[almefy-login redirect=\"/replace-with-custom-page\"]</b>"
+
+#: src/Pages/Settings/tab_03_howtouse.php:15
+msgid "Device Management"
+msgstr "Geräteverwaltung"
+
+#: src/Pages/Settings/tab_03_howtouse.php:17
+msgid "The built in device manager is found in the backend `Users -> Profile`."
+msgstr ""
+"Der eingebaute Gerätemanager befindet sich im Backend 'Benutzer -> Profil'."
+
+#: src/Pages/Settings/tab_03_howtouse.php:18
+msgid ""
+"If you do not want your users to have access to the Wordpress backend but let "
+"them manage their devices,"
+msgstr ""
+"Wenn Sie nicht möchten, dass Ihre Benutzer Zugriff auf das Wordpress-Backend "
+"haben, aber sie ihre Geräte verwalten lassen wollen,"
+
+#: src/Pages/Settings/tab_03_howtouse.php:19
+msgid "add the <b>[almefy-devices]</b> shortcode to a custom profile page."
+msgstr ""
+"fügen Sie den <b>Shortcode [almefy-devices]</b> zu einer Profilseite hinzu."
+
+#: src/Pages/Settings/tab_03_howtouse.php:22
+msgid "Connecting new devices"
+msgstr "Verbinden neuer Geräte"
+
+#: src/Pages/Settings/tab_03_howtouse.php:24
+msgid ""
+"When creating an account, users will receive an email asking them to connect "
+"their device."
+msgstr ""
+"Beim Erstellen eines Kontos erhalten Benutzer eine E-Mail, in der sie "
+"aufgefordert werden, ihr Gerät zu verbinden."
+
+#: src/Pages/Settings/tab_03_howtouse.php:25
+msgid "Further devices may be connected in the backend `Users -> Profile`."
+msgstr "Weitere Geräte können im Backend 'Bentuzer -> Profil' verbunden werden."
+
+#: src/Pages/Settings/tab_03_howtouse.php:27
+msgid ""
+"To add management options like adding and removing devices to the frontend of "
+"your website, "
+msgstr ""
+"Um Verwaltungsoptionen wie das Hinzufügen und Entfernen von Geräten zum "
+"Frontend Ihrer Website hinzuzufügen, "
+
+#: src/Pages/Settings/tab_03_howtouse.php:28
+msgid ""
+"you may add a the device connection shortcode to a profile page using "
+"<b>[almefy-connect]</b>."
+msgstr ""
+"können Sie einen Shortcode für die Geräteverbindung zu einer Profilseite "
+"hinzufügen, indem Sie <b>[Almefy-Connect]</b> verwenden."
+
+#: src/Pages/Settings/tab_03_howtouse.php:31
+msgid "Password-free Registration (Optional)"
+msgstr "Passwortfreie Registrierung (optional)"
+
+#: src/Pages/Settings/tab_03_howtouse.php:33
+msgid ""
+"You may add password free registration by adding the <b>[almefy-register]</b> "
+"shortcode."
+msgstr ""
+"Sie können eine passwortfreie Registrierung hinzufügen, indem Sie den "
+"<b>Shortcode [almefy-register]</b> hinzufügen."
+
+#: src/Pages/Settings/tab_03_howtouse.php:34
+msgid ""
+"Disabling `require_username` will result in users just being prompted for an "
+"email address."
+msgstr ""
+"Das Deaktivieren von \"require_username\" führt dazu, dass Benutzer nur zur "
+"Eingabe einer E-Mail-Adresse aufgefordert werden."
+
+#: src/Pages/Settings/tab_03_howtouse.php:35
+msgid "The button text is customizable by setting the `button_text` variable."
+msgstr ""
+"Der Buttontext kann durch Festlegen der Variablen 'button_text' angepasst "
+"werden."
+
+#: src/Pages/Settings/tab_03_howtouse.php:37
+msgid ""
+"Example: <b>[almefy-register require_username=\"false\" button_text=\"Sign Up "
+"Now!\"]</b>"
+msgstr ""
+"Beispiel: <b>[almefy-register require_username=\"false\" button_text=\"Jetzt "
+"anmelden!\"]</b>"
+
+#: src/Pages/Users/AlmefyUsers.php:17
+msgid "Connect Almefy"
+msgstr "Almefy verbinden"
+
+#: src/Pages/Users/AlmefyUsers.php:51
+msgid "Sending..."
+msgstr "Sende ..."
+
+#: src/Pages/Users/AlmefyUsers.php:64
+#: src/Shortcodes/AlmefyConnectDeviceShortcode.php:196
+msgid "Mail sent!"
+msgstr "E-Mail gesendet!"
+
+#: src/Pages/Users/AlmefyUsers.php:71
+#: src/Shortcodes/AlmefyConnectDeviceShortcode.php:205
+msgid "Mail could not be sent."
+msgstr "E-Mail konnte nicht gesendet werden."
+
+#: src/Rest/AlmefyAuthControllerEndpoint.php:33
+msgid "Login via Almefy has been disabled by an administrator."
+msgstr "Die Anmeldung mit Almefy wurde von einem Administrator deaktiviert."
+
+#: src/Rest/AlmefyAuthControllerEndpoint.php:39
+msgid "Authorization header missing."
+msgstr "Autorisierungsheader fehlt."
+
+#: src/Rest/AlmefyAuthControllerEndpoint.php:44
+msgid "Invalid authentication request."
+msgstr "Ungültige Authentifizierungsanforderung."
+
+#: src/Rest/AlmefyAuthControllerEndpoint.php:75
+msgid "Failed creating user."
+msgstr "Nutzererstellung fehlgeschlagen."
+
+#: src/Rest/AlmefyDevicesEndpoints.php:32 src/Rest/AlmefyDevicesEndpoints.php:80
+#: src/Rest/AlmefyDevicesEndpoints.php:98 src/Rest/AlmefyDevicesEndpoints.php:141
+#: src/Rest/AlmefyDevicesEndpoints.php:158
+#: src/Rest/AlmefyDevicesEndpoints.php:205 src/Rest/AlmefyGetQREndpoint.php:26
+#: src/Rest/AlmefyGetQREndpoint.php:51 src/Rest/AlmefyRegisterEndpoint.php:33
+#: src/Rest/AlmefyVerifyCredentialsEndpoint.php:22
+msgid "Sorry, the almefy API data is incorrect!"
+msgstr "Die Almefy API-Daten sind inkorrekt!"
+
+#: src/Rest/AlmefyDevicesEndpoints.php:46
+msgid "Account does not exist."
+msgstr "Das Konto existiert nicht."
+
+#: src/Rest/AlmefyDevicesEndpoints.php:56 src/Rest/AlmefyDevicesEndpoints.php:118
+msgid "Wordpress could not send this email. Is Wordpress configured correctly?"
+msgstr ""
+"Wordpress konnte diese E-Mail nicht senden. Ist Wordpress richtig konfiguriert?"
+
+#: src/Rest/AlmefyDevicesEndpoints.php:60 src/Rest/AlmefyDevicesEndpoints.php:122
+#: src/Rest/AlmefyRegisterEndpoint.php:55
+msgid "Could not connect to Almefy service."
+msgstr "Es konnte keine Verbindung zu Almefy hergestellt werden."
+
+#: src/Rest/AlmefyDevicesEndpoints.php:84 src/Rest/AlmefyDevicesEndpoints.php:145
+#: src/Rest/AlmefyDevicesEndpoints.php:211 src/Rest/AlmefyGetQREndpoint.php:30
+#: src/Rest/AlmefyVerifyCredentialsEndpoint.php:26
+msgid "You must be logged in to perform this action."
+msgstr "Sie müssen eingeloggt sein, um diese Aktion durchzuführen."
+
+#: src/Rest/AlmefyDevicesEndpoints.php:90 src/Rest/AlmefyDevicesEndpoints.php:151
+#: src/Rest/AlmefyGetQREndpoint.php:36 src/Rest/AlmefyGetQREndpoint.php:47
+msgid "Almefy API has been disabled by an administrator."
+msgstr "Almefy API wurde von einem Administrator deaktiviert."
+
+#: src/Rest/AlmefyDevicesEndpoints.php:184
+msgid "An error occurred fetching devices."
+msgstr "Beim Abrufen der Geräte ist ein Fehler aufgetreten."
+
+#: src/Rest/AlmefyDevicesEndpoints.php:222
+msgid "Missing device_id parameter in body."
+msgstr "Fehlender device_id Parameter im body."
+
+#: src/Rest/AlmefyDevicesEndpoints.php:242
+msgid "Device id does not belong to this identity."
+msgstr "Die Geräte-ID gehört nicht zu dieser Identität."
+
+#: src/Rest/AlmefyDevicesEndpoints.php:249
+msgid ""
+"An error occurred deleting this device. Please try again later or contact "
+"support."
+msgstr ""
+"Beim Löschen dieses Geräts ist ein Fehler aufgetreten. Bitte versuchen Sie es "
+"später erneut oder wenden Sie sich an den Support."
+
+#: src/Rest/AlmefyGetQREndpoint.php:65
+msgid "Error connecting to Almefy API."
+msgstr "Es konnte keine Verbindung zu Almefy hergestellt werden."
+
+#: src/Rest/AlmefyRegisterEndpoint.php:27
+msgid "Registration via Almefy has been disabled by an administrator."
+msgstr "Die Registrierung mit Almefy wurde von einem Administrator deaktiviert."
+
+#: src/Rest/AlmefyRegisterEndpoint.php:42
+msgid "Sorry, email missing or invalid!"
+msgstr "E-Mail fehlt oder ist ungültig!"
+
+#: src/Rest/AlmefyVerifyCredentialsEndpoint.php:31
+msgid "You must be an administrator to perform this action."
+msgstr "Sie müssen Administrator sein, um diese Aktion ausführen zu können."
+
+#: src/Shortcodes/AlmefyConnectDeviceShortcode.php:19
+msgid "You must be logged in to connect devices."
+msgstr "Sie müssen angemeldet sein, um Geräte verbinden zu können."
+
+#: src/Shortcodes/AlmefyConnectDeviceShortcode.php:48
+#: src/Shortcodes/AlmefyConnectDeviceShortcode.php:60
+#: src/Shortcodes/AlmefyConnectDeviceShortcode.php:62
+msgid "Connect Device"
+msgstr "Gerät verbinden"
+
+#: src/Shortcodes/AlmefyConnectDeviceShortcode.php:52
+msgid ""
+"Scan with the <a href='https://almefy.com/products/almefyapp' "
+"target='blank'>Almefy app</a>."
+msgstr ""
+"Scannen Sie mit der <a href='https://almefy.com/products/almefyapp' "
+"target='blank'>Almefy App</a>."
+
+#: src/Shortcodes/AlmefyConnectDeviceShortcode.php:56
+msgid "Show Code"
+msgstr "Code anzeigen"
+
+#: src/Shortcodes/AlmefyConnectDeviceShortcode.php:66
+#, php-format
+msgid "Send a mail to %s instead."
+msgstr "Sende stattdessen eine E-Mail an %s."
+
+#: src/Shortcodes/AlmefyConnectDeviceShortcode.php:103
+msgid "Hide Code"
+msgstr "Ausblenden"
+
+#: src/Shortcodes/AlmefyDeviceManagerShortcode.php:18
+msgid "You must be logged in to manage devices."
+msgstr "Sie müssen angemeldet sein, um Geräte verwalten zu können."
+
+#: src/Shortcodes/AlmefyDeviceManagerShortcode.php:157
+msgid "Download Almefy"
+msgstr "Almefy herunterladen"
+
+#: src/Shortcodes/AlmefyDeviceManagerShortcode.php:169
+msgid "Get the Almefy app and scan the QR code to connect the device."
+msgstr ""
+"Holen Sie sich die Almefy App und scannen Sie den QR-Code, um das Gerät zu "
+"verbinden."
+
+#: src/Shortcodes/AlmefyDeviceManagerShortcode.php:174
+msgid "Manage Devices"
+msgstr "Geräte verwalten"
+
+#: src/Shortcodes/AlmefyDeviceManagerShortcode.php:178
+#: src/Shortcodes/AlmefyDeviceManagerShortcode.php:278
+msgid "Device"
+msgstr "Geräte"
+
+#: src/Shortcodes/AlmefyDeviceManagerShortcode.php:179
+#: src/Shortcodes/AlmefyDeviceManagerShortcode.php:279
+msgid "Label"
+msgstr "Label"
+
+#: src/Shortcodes/AlmefyDeviceManagerShortcode.php:180
+#: src/Shortcodes/AlmefyDeviceManagerShortcode.php:280
+msgid "Added"
+msgstr "Seit"
+
+#: src/Shortcodes/AlmefyDeviceManagerShortcode.php:188
+msgid "Refresh"
+msgstr "Aktualisieren"
+
+#: src/Shortcodes/AlmefyDeviceManagerShortcode.php:301
+msgid "Are you sure you want to delete this device?"
+msgstr "Möchten Sie dieses Gerät wirklich löschen?"
+
+#: src/Shortcodes/AlmefyDeviceManagerShortcode.php:304
+msgid "There was an error. Please try again later."
+msgstr "Es ist ein Fehler aufgetreten, versuchen Sie es später erneut."
+
+#: src/Shortcodes/AlmefyLoginShortcode.php:108
+msgid "This is Almefy \"Scan to Login\"."
+msgstr "Das ist Almefy \"Scan to Login\"."
+
+#: src/Shortcodes/AlmefyLoginShortcode.php:112
+msgid "Connect </a> existing account."
+msgstr "Verbinde </a> vorhandenes Konto."
+
+#: src/Shortcodes/AlmefyLoginShortcode.php:119
+msgid "Register</a> password free."
+msgstr "Registriere</a> passwortfrei."
+
+#: src/Shortcodes/AlmefyLoginShortcode.php:123
+msgid ""
+"Use the <a target=\"_blank\" href=\"https://almefy.com/products/almefyapp/"
+"\">Almefy App</a> to scan the code."
+msgstr ""
+"Verwenden Sie die <a target=\"_blank\" href=\"https://almefy.com/products/"
+"almefyapp/\">Almefy App</a> , um den Code zu scannen."
+
+#: src/Shortcodes/AlmefyLoginShortcode.php:142
+msgid ""
+"Connect your account to the <a href=\"https://almefy.com/products/almefyapp/\" "
+"target=\"_blank\">Almefy App</a>."
+msgstr ""
+"Verbinden Sie Ihr Konto mit der <a href=\"https://almefy.com/products/"
+"almefyapp/\" target=\"_blank\">Almefy App</a>."
+
+#: src/Shortcodes/AlmefyLoginShortcode.php:149
+msgid "Connect"
+msgstr "Verbinden"
+
+#: src/Shortcodes/AlmefyLoginShortcode.php:155
+msgid ""
+"By activating Almefy on your account you enable secure 2-Factor-Authentication "
+"in one step. <br>To do so, the login through username and password will be "
+"disabled. <br>Just use the <a href='https://almefy.com/products/almefyapp' "
+"target='_blank'>Almefy App</a> to login. <br>Secure, Simple, Fast."
+msgstr ""
+"Mit der Aktivierung von Almefy in Ihrem Konto er­mög­li­chen Sie die sichere 2-"
+"Faktor-Authentifizierung in einem Schritt. <br>Dazu wird die Anmeldung über "
+"Benutzername und Passwort deaktiviert. <br>Melden Sie sich einfach mit der <a "
+"href='https://almefy.com/products/almefyapp' target='_blank'>Almefy App</a> "
+"an. <br>Sicher, einfach, schnell."
+
+#: src/Shortcodes/AlmefyLoginShortcode.php:160
+msgid "Don't have an account?"
+msgstr "Sie haben noch kein Konto?"
+
+#: src/Shortcodes/AlmefyLoginShortcode.php:162
+#: src/Shortcodes/AlmefyLoginShortcode.php:191
+#: src/Shortcodes/AlmefyRegisterShortcode.php:21
+msgid "Register"
+msgstr "Registrieren"
+
+#: src/Shortcodes/AlmefyLoginShortcode.php:162
+msgid "password-free!"
+msgstr "passwortfrei!"
+
+#: src/Shortcodes/AlmefyLoginShortcode.php:185
+msgid "Password-free Registration"
+msgstr "Passwortfreie Registrierung"
+
+#: src/Shortcodes/AlmefyRegisterShortcode.php:44
+msgid "Username"
+msgstr "Benutzername"
+
+#: src/Shortcodes/AlmefyRegisterShortcode.php:54
+msgid "Email"
+msgstr "E-Mail"
+
+#: src/Util/enqueue.php:28 src/Util/enqueue.php:53
+msgid "Mail has been sent to "
+msgstr "E-Mail wurde gesendet an "
+
+#: src/Util/hooks.php:193
+msgid "This account is enabled for Almefy Authentication."
+msgstr "Dieses Konto ist für die Almefy-Authentifizierung aktiviert."
+
+#: src/Util/hooks.php:194
+msgid ""
+"Due to security reasons you can't login with username and password anymore. "
+"<br>Please use the <a href='https://almefy.com/products/almefyapp' "
+"target='_blank'>Almefy App</a> to login."
+msgstr ""
+"Aus Sicherheitsgründen können Sie sich nicht mehr mit Benutzername und "
+"Passwort anmelden. <br>Bitte nutzen Sie die <a href='https://almefy.com/"
+"products/almefyapp' target='_blank'>Almefy App</a> , um sich einzuloggen."
+
+#. Plugin Name of the plugin/theme
+msgid "Almefy"
+msgstr "Almefy"
+
+#. Plugin URI of the plugin/theme
+msgid "https://almefy.com/"
+msgstr "https://almefy.com/"
+
+#. Description of the plugin/theme
+msgid ""
+"Strong and password-free 2FA-Login, just by scanning a QR-Code with our Almefy "
+"App."
+msgstr ""
+"Starkes und passwortfreies 2FA-Login, einfach durch Scannen eines QR-Codes mit "
+"unserer Almefy App."
+
+#. Author of the plugin/theme
+msgid "Almefy GmbH"
+msgstr "Almefy GmbH"
+
+#. Author URI of the plugin/theme
+msgid "https://almefy.com"
+msgstr "https://almefy.com"
+
+#~ msgid "Disable sandbox mode in settings."
+#~ msgstr "Deaktivieren Sie den Sandbox-Modus in den Einstellungen."
+
+#~ msgid "Could not verify token."
+#~ msgstr "Token konnte nicht verifiziert werden."
+
+#~ msgid "Scan with Almefy app."
+#~ msgstr "Scannen mit der Almefy App."

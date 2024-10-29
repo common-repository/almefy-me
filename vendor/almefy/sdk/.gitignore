@@ -1,0 +1,8 @@
+/.idea
+/bin
+/docker
+/docker-compose.yml
+/.env
+/vendor
+/composer.lock
+/DOCKER.md

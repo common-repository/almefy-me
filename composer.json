@@ -1,0 +1,5 @@
+{
+    "require": {
+        "almefy/client": "0.9.7"
+    }
+}
